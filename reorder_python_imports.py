@@ -417,6 +417,12 @@ REMOVALS[(3,)].update((
 REMOVALS[(3, 7)].add('from __future__ import generator_stop')
 # END GENERATED
 
+# GENERATED VIA cmyuis-fingers
+REPLACES[(3,2)].update((
+    'pytz=datetime.timezone:utc',
+))
+# END GENERATED
+
 # GENERATED VIA generate-typing-rewrite-info
 # Using:
 #     flake8-typing-imports==1.16.0
